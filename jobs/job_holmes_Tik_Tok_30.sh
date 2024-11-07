@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=8              # Number of CPU cores per task
 #SBATCH --mem=32G                      # Job memory request
 #SBATCH --time=15:00:00                # Time limit hrs:min:sec
-#SBATCH --output=/home/kka151/projects/def-t55wang/kka151/WF-Representation-Learning/jobs/logs/early-detection/RF/holmes_clustering_30_%j.log  # Standard output and error log
+#SBATCH --output=/home/kka151/projects/def-t55wang/kka151/Website-Fingerprinting-Library/jobs/logs/holmes_clustering_30_%j.log  # Standard output and error log
 
 
 # Load any modules and activate your conda environment here
@@ -18,7 +18,7 @@ source /home/kka151/venvs/python_11_5/bin/activate
 
 
 # Navigate to your project directory (optional)
-cd /home/kka151/projects/def-t55wang/kka151/Website-Fingerprinting-Library/src
+cd /home/kka151/projects/def-t55wang/kka151/Website-Fingerprinting-Library
 
 
 
