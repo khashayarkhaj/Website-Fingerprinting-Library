@@ -7,7 +7,7 @@ import argparse
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from WFlib import models
-from WFlib.tools import data_processor, evaluator
+from WFlib.tools import data_processor, evaluator, parser_utils
 
 # Set a fixed seed for reproducibility of experiments
 fix_seed = 2024
@@ -35,9 +35,14 @@ parser.add_argument("--batch_size", type=int, default=256, help="Batch size of t
 # Output parameters
 parser.add_argument("--checkpoints", type=str, default="./checkpoints/", help="Directory to save model checkpoints")
 parser.add_argument("--save_name", type=str, default="base", help="Name of the model file")
+parser.add_argument('-cc', '--compute_canada', type=parser_utils.str2bool, nargs='?', const=True, default=False,
+                         help='Whether we are using compute canada')
 
-# Parse command-line arguments
+# Parse arguments
 args = parser.parse_args()
+dataset_path = "./datasets"
+if args.compute_canada:
+    dataset_path = '/home/kka151/scratch/holmes/datasets'
 
 # Ensure the specified device (e.g., CUDA) is available
 if args.device.startswith("cuda"):
@@ -45,7 +50,7 @@ if args.device.startswith("cuda"):
 device = torch.device(args.device)
 
 # Construct paths for input dataset and model checkpoints
-in_path = os.path.join("./datasets", args.dataset)
+in_path = os.path.join(dataset_path, args.dataset)
 if not os.path.exists(in_path):
     raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
 ckp_path = os.path.join(args.checkpoints, args.dataset, args.model)

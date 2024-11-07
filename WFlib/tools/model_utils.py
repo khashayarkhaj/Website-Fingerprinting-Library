@@ -6,6 +6,7 @@ import torch.nn.functional as F
 from pytorch_metric_learning import miners, losses
 from sklearn.metrics.pairwise import cosine_similarity
 from .evaluator import measurement
+from tqdm import tqdm
 
 
 def knn_monitor(net, device, memory_data_loader, test_data_loader, num_classes, k=200, t=0.1):
@@ -136,8 +137,9 @@ def model_train(
         model.train()
         sum_loss = 0
         sum_count = 0
+        print(f'epoch: {epoch}')
         
-        for index, cur_data in enumerate(train_iter):
+        for index, cur_data in enumerate(tqdm(train_iter, desc= 'going through batches for holmes training')):
             cur_X, cur_y = cur_data[0].to(device), cur_data[1].to(device)
             optimizer.zero_grad()
             outs = model(cur_X)
@@ -224,7 +226,7 @@ def model_eval(
             y_pred = []
             y_true = []
 
-            for index, cur_data in enumerate(test_iter):
+            for index, cur_data in enumerate(tqdm(test_iter, desc= f'evaluating model with {eval_method}')):
                 cur_X, cur_y = cur_data[0].to(device), cur_data[1].to(device)
                 outs = model(cur_X)
                 if num_tabs == 1:
@@ -259,7 +261,7 @@ def model_eval(
             y_pred = []
             y_true = []
 
-            for index, cur_data in enumerate(test_iter):
+            for index, cur_data in enumerate(tqdm(test_iter, desc= f'evaluating model with {eval_method}')):
                 cur_X, cur_y = cur_data[0].to(device), cur_data[1].to(device)
                 embs = model(cur_X).cpu().numpy()
                 cur_y = cur_y.cpu().numpy()

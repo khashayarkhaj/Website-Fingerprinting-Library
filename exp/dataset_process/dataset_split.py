@@ -3,7 +3,7 @@ import os
 import random
 import argparse
 from sklearn.model_selection import train_test_split
-
+from WFlib.tools import  parser_utils
 # Set a fixed seed for reproducibility
 fix_seed = 2024
 random.seed(fix_seed)
@@ -13,11 +13,17 @@ np.random.seed(fix_seed)
 parser = argparse.ArgumentParser(description="WFlib")
 parser.add_argument("--dataset", type=str, required=True, default="Undefended", help="Dataset name")
 parser.add_argument("--use_stratify", type=str, default="True", help="Whether to use stratify")
+parser.add_argument('-cc', '--compute_canada', type=parser_utils.str2bool, nargs='?', const=True, default=False,
+                         help='Whether we are using compute canada')
 
 # Parse arguments
 args = parser.parse_args()
-infile = os.path.join("./datasets", f"{args.dataset}.npz")
-dataset_path = os.path.join("./datasets", args.dataset)
+dataset_path = "./datasets"
+if args.compute_canada:
+    dataset_path = '/home/kka151/scratch/holmes/datasets'
+
+infile = os.path.join(dataset_path, f"{args.dataset}.npz")
+dataset_path = os.path.join(dataset_path, args.dataset)
 os.makedirs(dataset_path, exist_ok=True)
 
 assert os.path.exists(infile), f"{infile} does not exist!"

@@ -7,7 +7,7 @@ import random
 import argparse
 import numpy as np
 from WFlib import models
-from WFlib.tools import data_processor, model_utils
+from WFlib.tools import data_processor, model_utils, parser_utils
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -45,9 +45,16 @@ parser.add_argument("--log_path", type=str, default="./logs/", help="Log path")
 parser.add_argument("--checkpoints", type=str, default="./checkpoints/", help="Location of model checkpoints")
 parser.add_argument("--load_name", type=str, default="base", help="Name of the model file")
 parser.add_argument("--result_file", type=str, default="result", help="File to save test results")
+parser.add_argument('-cc', '--compute_canada', type=parser_utils.str2bool, nargs='?', const=True, default=False,
+                         help='Whether we are using compute canada')
 
 # Parse arguments
 args = parser.parse_args()
+dataset_path = "./datasets"
+if args.compute_canada:
+    dataset_path = '/home/kka151/scratch/holmes/datasets'
+
+
 
 # Ensure the specified device is available
 if args.device.startswith("cuda"):
@@ -55,7 +62,7 @@ if args.device.startswith("cuda"):
 device = torch.device(args.device)
 
 # Define paths for dataset, logs, and checkpoints
-in_path = os.path.join("./datasets", args.dataset)
+in_path = os.path.join(dataset_path, args.dataset)
 if not os.path.exists(in_path):
     raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
 log_path = os.path.join(args.log_path, args.dataset, args.model)

@@ -5,6 +5,7 @@ import argparse
 import numpy as np
 from tqdm import tqdm
 import random
+from WFlib.tools import parser_utils
 
 def gen_augment(data, num_aug, effective_ranges, out_file):
     """
@@ -66,12 +67,17 @@ parser.add_argument("--in_file", type=str, default="train", help="Input file nam
 parser.add_argument("--checkpoints", type=str, default="./checkpoints/", help="Directory to save model checkpoints")
 parser.add_argument("--attr_method", type=str, default="DeepLiftShap", 
                     help="Feature attribution method, options=[DeepLiftShap, GradientShap]")
+parser.add_argument('-cc', '--compute_canada', type=parser_utils.str2bool, nargs='?', const=True, default=False,
+                         help='Whether we are using compute canada')
 
-# Parse command-line arguments
+# Parse arguments
 args = parser.parse_args()
+dataset_path = "./datasets"
+if args.compute_canada:
+    dataset_path = '/home/kka151/scratch/holmes/datasets'
 
 # Construct the input path for the dataset
-in_path = os.path.join("./datasets", args.dataset)
+in_path = os.path.join(dataset_path, args.dataset)
 data = np.load(os.path.join(in_path, f"{args.in_file}.npz"))
 
 # Load the temporal attribution data
