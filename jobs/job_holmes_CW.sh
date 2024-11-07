@@ -61,7 +61,8 @@ python3 -m exp.data_analysis.feature_attr \
   --feature TAM \
   --seq_len 1000 \
   --save_name temporal \
-  --attr_method ${attr_method}
+  --attr_method ${attr_method} \
+  -cc True
 
 
 for filename in train valid
