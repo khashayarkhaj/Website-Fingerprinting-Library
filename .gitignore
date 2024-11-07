@@ -163,5 +163,4 @@ datasets
 scripts/*
 !scripts/*.sh
 checkpoints
-logs
 tmp_files
