@@ -35,7 +35,7 @@ do
       -cc True
 done
 
-python3 -m exp.train
+python3 -m exp.train \
   --dataset ${dataset} \
   --model RF \
   --device cuda \
@@ -98,7 +98,7 @@ python3 -m exp.train \
   --optimizer AdamW \
   --eval_metrics Accuracy Precision Recall F1-score \
   --save_metric F1-score \
-  --save_name max_f1 \ 
+  --save_name max_f1 \
   -cc True
 
 python3 -m exp.data_analysis.spatial_analysis \
@@ -120,7 +120,7 @@ do
         --in_file test_p${percent} \
         -cc True
 
-    python3 -m exp.test
+    python3 -m exp.test \
     --dataset ${dataset} \
     --model Holmes \
     --device cuda \

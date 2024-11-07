@@ -3,7 +3,7 @@
 #SBATCH --gres=gpu:1                   # Request GPU resource
 #SBATCH --nodes=1                      # Run all processes on a single node
 #SBATCH --ntasks=1                     # Run a single task        
-#SBATCH --cpus-per-task=8              # Number of CPU cores per task
+#SBATCH --cpus-per-task= 12              # Number of CPU cores per task
 #SBATCH --mem=32G                      # Job memory request
 #SBATCH --time=30:00:00                # Time limit hrs:min:sec
 #SBATCH --output=/home/kka151/projects/def-t55wang/kka151/Website-Fingerprinting-Library/jobs/logs/holmes_tik_tok_%j.log  # Standard output and error log
@@ -35,7 +35,7 @@ do
       -cc True
 done
 
-python3 -m exp.train
+python3 -m exp.train \
   --dataset ${dataset} \
   --model RF \
   --device cuda \
@@ -98,7 +98,7 @@ python3 -m exp.train \
   --optimizer AdamW \
   --eval_metrics Accuracy Precision Recall F1-score \
   --save_metric F1-score \
-  --save_name max_f1 \ 
+  --save_name max_f1 \
   -cc True
 
 python3 -m exp.data_analysis.spatial_analysis \
@@ -120,7 +120,7 @@ do
         --in_file test_p${percent} \
         -cc True
 
-    python3 -m exp.test
+    python3 -m exp.test \
     --dataset ${dataset} \
     --model Holmes \
     --device cuda \
