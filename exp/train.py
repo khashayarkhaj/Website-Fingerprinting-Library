@@ -33,7 +33,9 @@ parser.add_argument("--num_workers", type=int, default=10, help="Data loader num
 parser.add_argument("--train_epochs", type=int, default=30, help="Train epochs")
 parser.add_argument("--batch_size", type=int, default=256, help="Batch size of train input data")
 parser.add_argument("--learning_rate", type=float, default=2e-3, help="Optimizer learning rate")
+parser.add_argument("--weight_decay", type=float, default=0, help="weight decay")
 parser.add_argument("--optimizer", type=str, default="Adam", help="Optimizer")
+
 parser.add_argument("--loss", type=str, default="CrossEntropyLoss", help="Loss function")
 parser.add_argument("--lradj", type=str, default="None", 
                     help="adjust learning rate, option=[None, StepLR]")
@@ -46,6 +48,10 @@ parser.add_argument("--save_metric", type=str, default="F1-score",
 parser.add_argument("--checkpoints", type=str, default="./checkpoints/", help="Location of model checkpoints")
 parser.add_argument("--load_file", type=str, default=None, help="The pre-trained model file")
 parser.add_argument("--save_name", type=str, default="base", help="Name used to save the model")
+
+# i added these myself
+parser.add_argument('--adjust_lr', type=parser_utils.str2bool, nargs='?', const=True, default=False,
+                         help='Whether to use adjust learning rate similar to rf code')
 parser.add_argument('-cc', '--compute_canada', type=parser_utils.str2bool, nargs='?', const=True, default=False,
                          help='Whether we are using compute canada')
 
@@ -97,7 +103,7 @@ if args.model in ["BAPM", "TMWF"]: # Assume num_tabs is known
     model = eval(f"models.{args.model}")(num_classes, args.num_tabs)
 else:
     model = eval(f"models.{args.model}")(num_classes)
-optimizer = eval(f"torch.optim.{args.optimizer}")(model.parameters(), lr=args.learning_rate)
+optimizer = eval(f"torch.optim.{args.optimizer}")(model.parameters(), lr=args.learning_rate, weight_decay= args.weight_decay)
 
 if args.load_file is None:
     print("No pre-trained model")
@@ -129,5 +135,7 @@ model_utils.model_train(
     out_file,
     num_classes,
     args.num_tabs,
-    device
+    device,
+    adjust_lr= args.adjust_lr,
+    original_lr= args.learning_rate
 )

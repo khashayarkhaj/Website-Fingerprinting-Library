@@ -104,6 +104,12 @@ def fast_count_burst(arr):
     
     return adjusted_lengths
 
+
+def adjust_learning_rate(optimizer, echo, learning_rate, epoch, annealing_rate = 0.2): # i added this myself to this code
+    lr = learning_rate * (annealing_rate ** (echo / epoch)) # this was initially 0.2
+    for para_group in optimizer.param_groups:
+        para_group['lr'] = lr
+
 def model_train(
     model,
     optimizer,
@@ -116,7 +122,9 @@ def model_train(
     out_file,
     num_classes,
     num_tabs,
-    device
+    device,
+    original_lr = None,
+    adjust_lr = False
 ):
     if loss_name in ["CrossEntropyLoss", "BCEWithLogitsLoss"]:
         criterion = eval(f"torch.nn.{loss_name}")()
@@ -138,12 +146,13 @@ def model_train(
         sum_loss = 0
         sum_count = 0
         print(f'epoch: {epoch}')
-        
+        if adjust_learning_rate:
+                adjust_learning_rate(optimizer, echo= epoch, learning_rate= original_lr, epoch= train_epochs)
         for index, cur_data in enumerate(tqdm(train_iter, desc= 'going through batches for holmes training')):
             cur_X, cur_y = cur_data[0].to(device), cur_data[1].to(device)
             optimizer.zero_grad()
             outs = model(cur_X)
-
+            
             if loss_name == "TripletMarginLoss":
                 hard_pairs = miner(outs, cur_y)
                 loss = criterion(outs, cur_y, hard_pairs)

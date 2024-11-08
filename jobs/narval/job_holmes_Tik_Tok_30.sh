@@ -43,10 +43,12 @@ python3 -m exp.train \
   --valid_file temporal_valid \
   --feature TAM \
   --seq_len 1000 \
-  --train_epochs 80 \
+  --train_epochs 150 \
   --batch_size 200 \
   --learning_rate 5e-4 \
   --optimizer Adam \
+  --weight_decay 0.001 \
+  --adjust_lr True \
   --eval_metrics Accuracy Precision Recall F1-score \
   --save_metric F1-score \
   --save_name temporal \
@@ -92,11 +94,13 @@ python3 -m exp.train \
   --valid_file taf_aug_valid \
   --feature TAF \
   --seq_len 2000 \
-  --train_epochs 80 \
+  --train_epochs 150 \
   --batch_size 256 \
   --learning_rate 5e-4 \
   --loss SupConLoss \
   --optimizer AdamW \
+  --weight_decay 0.001 \
+  --adjust_lr True \
   --eval_metrics Accuracy Precision Recall F1-score \
   --save_metric F1-score \
   --save_name max_f1 \
