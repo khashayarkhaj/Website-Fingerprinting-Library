@@ -10,8 +10,11 @@
 
 
 # Load any modules and activate your conda environment here
-module load python/3.10.2
-source /home/kka151/venvs/torch/bin/activate
+module load StdEnv/2023
+module load python/3.11.5
+module load rust/1.76.0
+module load gcc arrow/17.0.0
+source /home/kka151/venvs/python_11_5/bin/activate
 
 
 # Navigate to your project directory (optional)
@@ -40,7 +43,7 @@ python3 -m exp.train \
   --valid_file temporal_valid \
   --feature TAM \
   --seq_len 1000 \
-  --train_epochs 30 \
+  --train_epochs 80 \
   --batch_size 200 \
   --learning_rate 5e-4 \
   --optimizer Adam \
@@ -89,7 +92,7 @@ python3 -m exp.train \
   --valid_file taf_aug_valid \
   --feature TAF \
   --seq_len 2000 \
-  --train_epochs 30 \
+  --train_epochs 80 \
   --batch_size 256 \
   --learning_rate 5e-4 \
   --loss SupConLoss \
