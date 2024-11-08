@@ -109,7 +109,6 @@ def extract_temporal_feature(X, feat_length=1000):
     for idx in tqdm(range(X.shape[0])):
         temporal_array = np.zeros((2,feat_length))
         loading_time =  abs_X[idx].max()
-        print(f'loading time is {loading_time}')
         interval = 1.0 * loading_time / feat_length
 
         for packet in X[idx]:
