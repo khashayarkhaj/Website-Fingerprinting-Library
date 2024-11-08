@@ -4,9 +4,9 @@
 #SBATCH --nodes=1                      # Run all processes on a single node
 #SBATCH --ntasks=1                     # Run a single task        
 #SBATCH --cpus-per-task=16              # Number of CPU cores per task
-#SBATCH --mem=64G                      # Job memory request
+#SBATCH --mem=96G                      # Job memory request
 #SBATCH --time=15:00:00                # Time limit hrs:min:sec
-#SBATCH --output=/home/kka151/projects/def-t55wang/kka151/Website-Fingerprinting-Library/jobs/logs/holmes_CW_%j.log  # Standard output and error log
+#SBATCH --output=/home/kka151/projects/def-t55wang/kka151/Website-Fingerprinting-Library/jobs/beluga/logs/holmes_CW_%j.log  # Standard output and error log
 
 
 # Load any modules and activate your conda environment here

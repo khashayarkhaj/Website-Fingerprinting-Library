@@ -164,11 +164,14 @@ def agg_interval(packets):
     return np.array(features, dtype=np.float32)
 
 def process_TAF(index, sequence, interval, max_len):
+    TAF = np.zeros((3, 2, max_len))
+    if len(packets) == 0:
+        return index, TAF # modification by me. I would encounter error at this stage
     packets = np.trim_zeros(sequence, "fb")
     abs_packets = np.abs(packets)
     st_time = abs_packets[0]
     st_pos = 0
-    TAF = np.zeros((3, 2, max_len))
+    
 
     for interval_idx in range(max_len):
         ed_time = (interval_idx + 1) * interval

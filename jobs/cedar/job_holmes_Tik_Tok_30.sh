@@ -4,9 +4,9 @@
 #SBATCH --nodes=1                      # Run all processes on a single node
 #SBATCH --ntasks=1                     # Run a single task        
 #SBATCH --cpus-per-task=12             # Number of CPU cores per task
-#SBATCH --mem=64G                      # Job memory request
+#SBATCH --mem=96G                      # Job memory request
 #SBATCH --time=15:00:00                # Time limit hrs:min:sec
-#SBATCH --output=/home/kka151/projects/def-t55wang/kka151/Website-Fingerprinting-Library/jobs/logs/holmes_clustering_30_%j.log  # Standard output and error log
+#SBATCH --output=/home/kka151/projects/def-t55wang/kka151/Website-Fingerprinting-Library/jobs/cedar/logs/holmes_clustering_30_%j.log  # Standard output and error log
 
 
 # Load any modules and activate your conda environment here
@@ -43,7 +43,7 @@ python3 -m exp.train \
   --valid_file temporal_valid \
   --feature TAM \
   --seq_len 1000 \
-  --train_epochs 30 \
+  --train_epochs 80 \
   --batch_size 200 \
   --learning_rate 5e-4 \
   --optimizer Adam \
@@ -92,7 +92,7 @@ python3 -m exp.train \
   --valid_file taf_aug_valid \
   --feature TAF \
   --seq_len 2000 \
-  --train_epochs 30 \
+  --train_epochs 80 \
   --batch_size 256 \
   --learning_rate 5e-4 \
   --loss SupConLoss \

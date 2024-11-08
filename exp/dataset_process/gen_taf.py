@@ -48,6 +48,9 @@ if not os.path.exists(out_file):
     y = data["y"]
     # Align the sequence length
     X_taf = data_processor.length_align(X, args.seq_len)
+    del data
+    del X
+    gc.collect()
     # Extract the TAF
     X_taf = data_processor.extract_TAF(X_taf)
     # Print processing information
@@ -56,19 +59,18 @@ if not os.path.exists(out_file):
     
     # again this file is huge and takes a lot of memmory
     # I will try to delete irrelevant stuff before it
-    del data
-    del X
-    gc.collect()
+    
 
     data_dict = {
     'X': X_taf,
     'y': y
     }
+    # Predict file size
+    predicted_size = predict_npz_file_size(data_dict, verbose=True)
     del data_dict
     gc.collect()
 
-    # Predict file size
-    predicted_size = predict_npz_file_size(data_dict, verbose=True)
+    
     np.savez(out_file, X = X_taf, y = y)
 else:
     # Print a message if the output file already exists
