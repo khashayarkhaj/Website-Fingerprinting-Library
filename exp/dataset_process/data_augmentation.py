@@ -6,7 +6,67 @@ import numpy as np
 from tqdm import tqdm
 import random
 from WFlib.tools import parser_utils
+import gc
+from typing import Dict, Any
 
+def predict_npz_file_size(data_dict: Dict[str, Any], verbose = True) -> Dict[str, int]:
+    """
+    Estimate the size of an NPZ file before saving it.
+    
+    Args:
+        data_dict: Dictionary containing arrays to be saved
+        
+    Returns:
+        Dictionary with size estimates in bytes
+    """
+    total_raw_size = 0
+    array_sizes = {}
+    
+    for key, value in data_dict.items():
+        # Convert to numpy array if it isn't already
+        if not isinstance(value, np.ndarray):
+            value = np.array(value)
+            
+        # Calculate size of this array
+        array_size = value.nbytes
+        array_sizes[key] = array_size
+        total_raw_size += array_size
+        
+    # NPZ files use ZIP compression
+    # Estimate compressed size (very rough estimate - assumes 50% compression)
+    estimated_compressed = total_raw_size // 2
+    
+    # Add overhead for ZIP format and NumPy metadata
+    zip_overhead = 1024  # Rough estimate for ZIP headers and metadata
+    overhead_per_array = 256  # Rough estimate for NumPy array metadata
+    total_overhead = zip_overhead + (overhead_per_array * len(data_dict))
+    
+    size_info = {
+        'total_raw_bytes': total_raw_size,
+        'estimated_compressed_bytes': estimated_compressed + total_overhead,
+        'overhead_bytes': total_overhead,
+        'array_sizes': array_sizes
+    }
+
+    if verbose:
+        def bytes_to_human_readable(bytes_size: int) -> str:
+            for unit in ['B', 'KB', 'MB', 'GB']:
+                if bytes_size < 1024:
+                    return f"{bytes_size:.2f} {unit}"
+                bytes_size /= 1024
+            return f"{bytes_size:.2f} TB"
+        
+        print("\nSize Analysis:")
+        print("--------------")
+        print(f"Total raw size: {bytes_to_human_readable(size_info['total_raw_bytes'])}")
+        print(f"Estimated compressed size: {bytes_to_human_readable(size_info['estimated_compressed_bytes'])}")
+        print(f"Overhead: {bytes_to_human_readable(size_info['overhead_bytes'])}")
+        
+        print("\nSize per array:")
+        for array_name, size in size_info['array_sizes'].items():
+            print(f"{array_name}: {bytes_to_human_readable(size)}")
+    
+    return size_info
 def gen_augment(data, num_aug, effective_ranges, out_file):
     """
     Generate augmented data based on the provided dataset and save it to a file.
@@ -48,7 +108,23 @@ def gen_augment(data, num_aug, effective_ranges, out_file):
     new_X = np.array(new_X)
     new_y = np.array(new_y)
 
+    # The saving takes a lot of memmory
+    # I will try to delete some temp variables
     # Save the augmented data to the specified output file
+    del abs_X
+    del X
+    del y
+    gc.collect()
+    data_dict = {
+    'X': new_X,
+    'y': new_y
+    }
+
+    # Predict file size
+    predicted_size = predict_npz_file_size(data_dict, verbose=True)
+    del data_dict
+    gc.collect()
+    
     np.savez(out_file, X=new_X, y=new_y)
     print(f"Generate {out_file} done.")
 
@@ -76,6 +152,7 @@ dataset_path = "./datasets"
 if args.compute_canada:
     dataset_path = '/home/kka151/scratch/holmes/datasets'
 
+print(f'starting data augmentation script for {args.in_file}')
 # Construct the input path for the dataset
 in_path = os.path.join(dataset_path, args.dataset)
 data = np.load(os.path.join(in_path, f"{args.in_file}.npz"))
@@ -102,3 +179,5 @@ if not os.path.exists(out_file):
 else:
     # If the output file already exists, print a message indicating it has been generated
     print(f"{out_file} has been generated.")
+
+print(f'finished data augmentation script for {args.in_file}')

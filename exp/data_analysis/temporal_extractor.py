@@ -32,7 +32,9 @@ out_file = os.path.join(in_path, f"temporal_{args.in_file}.npz")
 if not os.path.exists(out_file):
     # Load data from the specified input file
     X, y = data_processor.load_data(os.path.join(in_path, f"{args.in_file}.npz"), "Origin", args.seq_len)
-    
+    print('X nd y are loaded for temporal feature extraction')
+    print(f'X shape is {X.shape}')
+    print(f'y shape is {y.shape}')
     # Extract temporal features from the input data
     temporal_X = data_processor.extract_temporal_feature(X)
     

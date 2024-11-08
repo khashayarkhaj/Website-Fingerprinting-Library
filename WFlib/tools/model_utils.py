@@ -158,7 +158,7 @@ def model_train(
                     loss = loss + loss_ct
             else:
                 loss = criterion(outs, cur_y)
-            
+            print(f'loss is {loss.item()}')
             loss.backward()
             optimizer.step()
             sum_loss += loss.data.cpu().numpy() * outs.shape[0]

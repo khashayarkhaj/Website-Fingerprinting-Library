@@ -102,12 +102,14 @@ def load_iter(X, y, batch_size, is_train=True, num_workers=8, weight_sample=Fals
     return torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=is_train, drop_last=is_train, num_workers=num_workers)
 
 def extract_temporal_feature(X, feat_length=1000):
+    # i think this gives us the tam
     abs_X = np.absolute(X)
     new_X = []
 
     for idx in tqdm(range(X.shape[0])):
         temporal_array = np.zeros((2,feat_length))
         loading_time =  abs_X[idx].max()
+        print(f'loading time is {loading_time}')
         interval = 1.0 * loading_time / feat_length
 
         for packet in X[idx]:

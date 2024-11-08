@@ -33,6 +33,8 @@ print("loading...", infile)
 data = np.load(infile)
 X = data["X"]
 y = data["y"]
+print(f'initial shape of X is {X.shape}')
+print(f'initial shape of y is {y.shape}')
 
 # Ensure labels are continuous
 num_classes = len(np.unique(y))

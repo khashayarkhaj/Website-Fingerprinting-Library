@@ -115,7 +115,7 @@ else:
     assert log.missing_keys == ['fc.weight', 'fc.bias']
 
 model.to(device)
-
+print(f'Loss for training is {args.loss}')
 # Train the model
 model_utils.model_train(
     model, 
