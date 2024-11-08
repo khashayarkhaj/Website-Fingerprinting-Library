@@ -7,6 +7,8 @@ import argparse
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
 from WFlib.tools import  parser_utils
+from .file_operations import predict_npz_file_size
+import gc
 # Set a fixed seed for reproducibility
 fix_seed = 2024
 random.seed(fix_seed)
@@ -26,13 +28,16 @@ if args.compute_canada:
 
 in_path = os.path.join(dataset_path, f"{args.dataset}")
 in_file = os.path.join(in_path, "test.npz")
-
+print(f'script for gen early traffic started')
 data = np.load(in_file)
-X = data["X"]
-y = data["y"]
-feat_length = X.shape[1]
+# X = data["X"]
+# y = data["y"]
+# feat_length = X.shape[1]
 
 for p in [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]:
+    X = data["X"]
+    y = data["y"]
+    feat_length = X.shape[1]
     out_file = os.path.join(in_path, f"test_p{p}.npz")
     if os.path.exists(out_file):
         continue
@@ -54,4 +59,21 @@ for p in [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]:
     cur_X = np.array(cur_X)
     cur_y = np.array(cur_y)
     print(f"Shape: X = {cur_X.shape}, y = {cur_y.shape}")
+
+    # again deleting some extra stuff
+    del X
+    del y
+    del abs_X
+    gc.collect()
+
+    data_dict = {
+    'X': cur_X,
+    'y': cur_y
+    }
+
+    # Predict file size
+    predicted_size = predict_npz_file_size(data_dict, verbose=True)
+    del data_dict
+    gc.collect()
     np.savez(out_file, X = cur_X, y = cur_y)
+print(f'script for gen early traffic started')

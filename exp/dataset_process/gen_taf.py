@@ -10,6 +10,8 @@ import torch
 from tqdm import tqdm
 from multiprocessing import Process
 from WFlib.tools import data_processor, parser_utils
+from .file_operations import predict_npz_file_size
+import gc
 
 # Set a fixed seed for reproducibility
 fix_seed = 2024
@@ -37,7 +39,7 @@ if not os.path.exists(in_path):
 
 # Define output file path
 out_file = os.path.join(in_path, f"taf_{args.in_file}.npz")
-
+print(f'starting gen taf script for {args.in_file}')
 # If the output file does not exist, process the input file
 if not os.path.exists(out_file):
     # Load dataset from the specified .npz file
@@ -45,13 +47,31 @@ if not os.path.exists(out_file):
     X = data["X"]
     y = data["y"]
     # Align the sequence length
-    X = data_processor.length_align(X, args.seq_len)
+    X_taf = data_processor.length_align(X, args.seq_len)
     # Extract the TAF
-    X = data_processor.extract_TAF(X)
+    X_taf = data_processor.extract_TAF(X_taf)
     # Print processing information
-    print(f"{args.in_file} process done: X = {X.shape}, y = {y.shape}")
+    print(f"{args.in_file} process done: X = {X_taf.shape}, y = {y.shape}")
     # Save the processed data into a new .npz file
-    np.savez(out_file, X = X, y = y)
+    
+    # again this file is huge and takes a lot of memmory
+    # I will try to delete irrelevant stuff before it
+    del data
+    del X
+    gc.collect()
+
+    data_dict = {
+    'X': X_taf,
+    'y': y
+    }
+    del data_dict
+    gc.collect()
+
+    # Predict file size
+    predicted_size = predict_npz_file_size(data_dict, verbose=True)
+    np.savez(out_file, X = X_taf, y = y)
 else:
     # Print a message if the output file already exists
     print(f"{out_file} has been generated.")
+
+print(f'finished gen taf script for {args.in_file}')
