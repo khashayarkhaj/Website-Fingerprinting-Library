@@ -117,6 +117,8 @@ python3 -m exp.data_analysis.spatial_analysis \
   --save_name max_f1 \
   -cc True
 
+python3 -m exp.dataset_process.gen_early_traffic  --dataset Tik_Tok_30 -cc True
+
 for percent in {20..100..10}
 do
     python3 -m exp.dataset_process.gen_taf \

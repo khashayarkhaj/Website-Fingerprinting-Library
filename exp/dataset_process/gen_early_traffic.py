@@ -35,11 +35,13 @@ data = np.load(in_file)
 # feat_length = X.shape[1]
 
 for p in [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]:
+    print(f'creating test set for p = {p}')
     X = data["X"]
     y = data["y"]
     feat_length = X.shape[1]
     out_file = os.path.join(in_path, f"test_p{p}.npz")
     if os.path.exists(out_file):
+        print(f'{out_file} already exists')
         continue
     print(f"Generating the page loaded {p}% of traffic")
     cur_X = []
