@@ -10,6 +10,7 @@
 
 
 # Load any modules and activate your conda environment here
+module load StdEnv/2020
 module load python/3.10.2
 source /home/kka151/venvs/torch/bin/activate
 
