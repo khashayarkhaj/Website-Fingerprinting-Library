@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1                     # Run a single task        
 #SBATCH --cpus-per-task=12              # Number of CPU cores per task
 #SBATCH --mem=64G                      # Job memory request
-#SBATCH --time=30:00:00                # Time limit hrs:min:sec
+#SBATCH --time=15:00:00                # Time limit hrs:min:sec
 #SBATCH --output=/home/kka151/projects/def-t55wang/kka151/Website-Fingerprinting-Library/jobs/logs/holmes_tik_tok_%j.log  # Standard output and error log
 
 
