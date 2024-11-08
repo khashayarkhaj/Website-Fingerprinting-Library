@@ -165,9 +165,10 @@ def agg_interval(packets):
 
 def process_TAF(index, sequence, interval, max_len):
     TAF = np.zeros((3, 2, max_len))
+    
+    packets = np.trim_zeros(sequence, "fb")
     if len(packets) == 0:
         return index, TAF # modification by me. I would encounter error at this stage
-    packets = np.trim_zeros(sequence, "fb")
     abs_packets = np.abs(packets)
     st_time = abs_packets[0]
     st_pos = 0
