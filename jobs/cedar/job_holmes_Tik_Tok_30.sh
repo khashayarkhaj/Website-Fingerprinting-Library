@@ -1,19 +1,20 @@
 #!/bin/bash
-#SBATCH --job-name=holmes_tik_tok   # Job name
+#SBATCH --job-name=holmes_clustering_30   # Job name
 #SBATCH --gres=gpu:1                   # Request GPU resource
 #SBATCH --nodes=1                      # Run all processes on a single node
 #SBATCH --ntasks=1                     # Run a single task        
-#SBATCH --cpus-per-task=12              # Number of CPU cores per task
+#SBATCH --cpus-per-task=12             # Number of CPU cores per task
 #SBATCH --mem=64G                      # Job memory request
-#SBATCH --time=30:00:00                # Time limit hrs:min:sec
-#SBATCH --output=/home/kka151/projects/def-t55wang/kka151/Website-Fingerprinting-Library/jobs/logs/holmes_tik_tok_%j.log  # Standard output and error log
+#SBATCH --time=15:00:00                # Time limit hrs:min:sec
+#SBATCH --output=/home/kka151/projects/def-t55wang/kka151/Website-Fingerprinting-Library/jobs/logs/holmes_clustering_30_%j.log  # Standard output and error log
 
 
 # Load any modules and activate your conda environment here
-module load StdEnv/2020
-module load python/3.10.2
-source /home/kka151/venvs/torch/bin/activate
-
+module load StdEnv/2023
+module load python/3.11.5
+module load rust/1.76.0
+module load gcc arrow/17.0.0
+source /home/kka151/venvs/python_11_5/bin/activate
 
 
 # Navigate to your project directory (optional)
@@ -22,7 +23,7 @@ cd /home/kka151/projects/def-t55wang/kka151/Website-Fingerprinting-Library
 
 
 # Execute your deep learning script
-dataset=Tik_Tok
+dataset=Tik_Tok_30
 attr_method=DeepLiftShap 
 
 for filename in train valid
