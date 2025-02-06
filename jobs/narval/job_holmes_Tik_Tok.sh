@@ -26,7 +26,7 @@ cd /home/kka151/projects/def-t55wang/kka151/Website-Fingerprinting-Library
 dataset=Tik_Tok
 attr_method=DeepLiftShap 
 
-for filename in train valid
+for filename in train valid # for extracting tams
 do 
     python3 -m exp.data_analysis.temporal_extractor \
       --dataset ${dataset} \

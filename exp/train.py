@@ -122,7 +122,10 @@ else:
 
 model.to(device)
 print(f'Loss for training is {args.loss}')
+print(next(iter(train_iter))[0].shape)
+
 # Train the model
+
 model_utils.model_train(
     model, 
     optimizer, 

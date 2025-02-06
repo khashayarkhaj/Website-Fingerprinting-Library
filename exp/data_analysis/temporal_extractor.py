@@ -36,7 +36,9 @@ if not os.path.exists(out_file):
     print(f'X shape is {X.shape}')
     print(f'y shape is {y.shape}')
     # Extract temporal features from the input data
+    breakpoint()
     temporal_X = data_processor.extract_temporal_feature(X)
+
     
     # Print the shape of the extracted temporal features
     print("Shape of temporal_X:", temporal_X.shape)

@@ -146,8 +146,11 @@ def model_train(
         sum_loss = 0
         sum_count = 0
         print(f'epoch: {epoch}')
-        if adjust_learning_rate:
-                adjust_learning_rate(optimizer, echo= epoch, learning_rate= original_lr, epoch= train_epochs)
+        if adjust_lr:
+            
+            adjust_learning_rate(optimizer, echo= epoch, learning_rate= original_lr, epoch= train_epochs)
+        
+        
         for index, cur_data in enumerate(tqdm(train_iter, desc= 'going through batches for holmes training')):
             cur_X, cur_y = cur_data[0].to(device), cur_data[1].to(device)
             optimizer.zero_grad()
