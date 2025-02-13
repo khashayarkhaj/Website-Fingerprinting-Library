@@ -232,7 +232,9 @@ def model_eval(
         num_tabs,
         device,
         save_path = None,
-        save_predictions = False  # New parameter to control saving
+        save_predictions = False,  # New parameter to control saving
+        filename_predict = None,
+        filename_true = None,
     ):
     if eval_method == "common":
         with torch.no_grad():
@@ -302,8 +304,12 @@ def model_eval(
         os.makedirs(save_path, exist_ok=True)
         
         # Save predictions and true labels separately
-        pred_path = os.path.join(save_path, f"{eval_method}_predictions.npy")
-        true_path = os.path.join(save_path, f"{eval_method}_true_labels.npy")
+        if filename_predict is None:
+            filename_predict = f"{eval_method}_predictions.npy"
+        if filename_true is None:
+            filename_true = f"{eval_method}_true_labels.npy"
+        pred_path = os.path.join(save_path, filename_predict)
+        true_path = os.path.join(save_path, filename_true)
         
         np.save(pred_path, y_pred)
         np.save(true_path, y_true)

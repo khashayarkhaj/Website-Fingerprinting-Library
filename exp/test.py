@@ -101,6 +101,8 @@ model.load_state_dict(torch.load(os.path.join(ckp_path, f"{args.load_name}.pth")
 model.to(device)
 
 # Evaluation
+filename_predict = f"{args.test_file}_{eval_method}_predictions.npy"
+filename_true = f"{args.test_file}_{eval_method}_true_labels.npy"
 model_utils.model_eval(
     model,
     test_iter,
@@ -114,5 +116,7 @@ model_utils.model_eval(
     args.num_tabs,
     device,
     save_path= in_path,
-    save_predictions= True
+    save_predictions= True,
+    filename_predict = filename_predict,
+    filename_true = filename_true
 )
