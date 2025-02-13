@@ -230,7 +230,9 @@ def model_eval(
         ckp_path, 
         scenario,
         num_tabs,
-        device
+        device,
+        save_path = None,
+        save_predictions = False  # New parameter to control saving
     ):
     if eval_method == "common":
         with torch.no_grad():
@@ -293,6 +295,20 @@ def model_eval(
             y_true = np.concatenate(y_true).flatten()
     else:
         raise ValueError(f"Evaluation method {eval_method} is not matched.")
+    
+    # Save predictions and true labels if requested
+    if save_predictions and save_path is not None:
+        # Create directory if it doesn't exist
+        os.makedirs(save_path, exist_ok=True)
+        
+        # Save predictions and true labels separately
+        pred_path = os.path.join(save_path, f"{eval_method}_predictions.npy")
+        true_path = os.path.join(save_path, f"{eval_method}_true_labels.npy")
+        
+        np.save(pred_path, y_pred)
+        np.save(true_path, y_true)
+        print(f"Saved predictions to {pred_path}")
+        print(f"Saved true labels to {true_path}")
     
     result = measurement(y_true, y_pred, eval_metrics, num_tabs)
     print(result)

@@ -112,5 +112,7 @@ model_utils.model_eval(
     ckp_path,
     args.scenario,
     args.num_tabs,
-    device
+    device,
+    save_path= in_path,
+    save_predictions= True
 )
