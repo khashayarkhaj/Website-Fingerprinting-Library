@@ -101,8 +101,8 @@ model.load_state_dict(torch.load(os.path.join(ckp_path, f"{args.load_name}.pth")
 model.to(device)
 
 # Evaluation
-filename_predict = f"{args.test_file}_{eval_method}_predictions.npy"
-filename_true = f"{args.test_file}_{eval_method}_true_labels.npy"
+filename_predict = f"{args.test_file}_{args.eval_method}_predictions.npy"
+filename_true = f"{args.test_file}_{args.eval_method}_true_labels.npy"
 model_utils.model_eval(
     model,
     test_iter,
