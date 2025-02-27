@@ -18,10 +18,10 @@ def process_directory(base_path):
         ['20% loaded', '30% loaded', '40% loaded', '50% loaded', '60% loaded'],
         ['P', 'R', 'F1']
     ])
-    df = pd.DataFrame(index=['CW', 'Tik\_Tok', 'Tik\_Tok\_30'], columns=columns)
+    df = pd.DataFrame(index=['CW', 'Tik\_Tok', 'Tik\_Tok\_30', 'Tik\_Tok\_5\_Tamaraw'], columns=columns)
     
     # Fill DataFrame with data
-    for method in ['CW', 'Tik_Tok', 'Tik_Tok_30']:
+    for method in ['Tik_Tok_5_Tamaraw']:
         method_key = method.replace('_', '\_')  # Escape underscores for LaTeX
         for i, percent in enumerate(['20', '30', '40', '50', '60']):
             file_path = os.path.join(base_path, method, 'Holmes', f'test_p{percent}.json')

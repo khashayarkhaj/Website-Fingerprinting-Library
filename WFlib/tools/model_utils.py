@@ -235,6 +235,8 @@ def model_eval(
         save_predictions = False,  # New parameter to control saving
         filename_predict = None,
         filename_true = None,
+        filename_logits = None,
+        filename_prob = None
     ):
     if eval_method == "common":
         with torch.no_grad():
@@ -276,25 +278,43 @@ def model_eval(
             model.eval()
             y_pred = []
             y_true = []
-
-            for index, cur_data in enumerate(tqdm(test_iter, desc= f'evaluating model with {eval_method}')):
+            all_logits = []  # To store all logits/decision values
+            all_probs = []   # To store softmax probabilities if needed
+            
+            for index, cur_data in enumerate(tqdm(test_iter, desc=f'evaluating model with {eval_method}')):
                 cur_X, cur_y = cur_data[0].to(device), cur_data[1].to(device)
                 embs = model(cur_X).cpu().numpy()
                 cur_y = cur_y.cpu().numpy()
-
+                
+                # Calculate the similarity scores
                 all_sims = 1 - cosine_similarity(embs, webs_centroid)
-                all_sims -= webs_radius
-                outs = np.argmin(all_sims, axis=1)
-
+                decision_values = all_sims - webs_radius  # These are your "logits"
+                
+                # Store the decision values for each instance
+                all_logits.append(decision_values)
+                
+                # If you want probabilities, convert decision values to probabilities
+                # Using softmax (optional)
+                probs = np.exp(-decision_values)
+                probs = probs / np.sum(probs, axis=1, keepdims=True)
+                all_probs.append(probs)
+                
+                # Continue with your existing logic
+                outs = np.argmin(decision_values, axis=1)
+                
                 if scenario == "Open-world":
-                    outs_d = np.min(all_sims, axis=1)
+                    outs_d = np.min(decision_values, axis=1)
                     open_indices = np.where(outs_d > open_threshold)[0]
                     outs[open_indices] = num_classes - 1
-
+                
                 y_pred.append(outs)
                 y_true.append(cur_y)
+            
+            # Concatenate all results
             y_pred = np.concatenate(y_pred).flatten()
             y_true = np.concatenate(y_true).flatten()
+            all_logits = np.concatenate(all_logits, axis=0)  # Combine all logits
+            all_probs = np.concatenate(all_probs, axis=0)    # Combine all probabilities
     else:
         raise ValueError(f"Evaluation method {eval_method} is not matched.")
     
@@ -308,13 +328,23 @@ def model_eval(
             filename_predict = f"{eval_method}_predictions.npy"
         if filename_true is None:
             filename_true = f"{eval_method}_true_labels.npy"
+        if filename_logits is None:
+            filename_logits = f"{eval_method}_logits.npy"
+        if filename_prob is None:
+            filename_prob = f"{eval_method}_probs.npy"
         pred_path = os.path.join(save_path, filename_predict)
         true_path = os.path.join(save_path, filename_true)
+        logit_path = os.path.join(save_path, filename_logits)
+        prob_path = os.path.join(save_path, filename_prob)
         
         np.save(pred_path, y_pred)
         np.save(true_path, y_true)
+        np.save(logit_path, all_logits)
+        np.save(prob_path, all_probs)
         print(f"Saved predictions to {pred_path}")
         print(f"Saved true labels to {true_path}")
+        print(f"Saved logits to {logit_path}")
+        print(f"Saved proba to {prob_path}")
     
     result = measurement(y_true, y_pred, eval_metrics, num_tabs)
     print(result)
