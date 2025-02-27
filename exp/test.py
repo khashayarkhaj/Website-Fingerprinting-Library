@@ -103,6 +103,8 @@ model.to(device)
 # Evaluation
 filename_predict = f"{args.test_file}_{args.eval_method}_predictions.npy"
 filename_true = f"{args.test_file}_{args.eval_method}_true_labels.npy"
+filename_logits = f"{args.test_file}_{args.eval_method}_logits.npy"
+filename_probs = f"{args.test_file}_{args.eval_method}_probs.npy"
 prediction_save_path = os.path.join(in_path, 'holmes_predictions')
 model_utils.model_eval(
     model,
@@ -119,5 +121,7 @@ model_utils.model_eval(
     save_path= prediction_save_path,
     save_predictions= True,
     filename_predict = filename_predict,
-    filename_true = filename_true
+    filename_true = filename_true,
+    filename_logits= filename_logits,
+    filename_prob= filename_probs
 )
