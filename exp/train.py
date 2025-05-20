@@ -55,6 +55,8 @@ parser.add_argument('--adjust_lr', type=parser_utils.str2bool, nargs='?', const=
 parser.add_argument('-cc', '--compute_canada', type=parser_utils.str2bool, nargs='?', const=True, default=False,
                          help='Whether we are using compute canada')
 
+parser.add_argument("--num_classes", type=int, default=None, help="fixed num classes") # added this for my own ow evaluation
+
 # Parse arguments
 args = parser.parse_args()
 dataset_path = "./datasets"
@@ -83,11 +85,14 @@ if os.path.exists(out_file):
 train_X, train_y = data_processor.load_data(os.path.join(in_path, f"{args.train_file}.npz"), args.feature, args.seq_len, args.num_tabs)
 valid_X, valid_y = data_processor.load_data(os.path.join(in_path, f"{args.valid_file}.npz"), args.feature, args.seq_len, args.num_tabs)
 
-if args.num_tabs == 1:
-    num_classes = len(np.unique(train_y))
-    assert num_classes == train_y.max() + 1, "Labels are not continuous" # Ensure labels are continuous
+if args.num_classes is not None:
+    num_classes = args.num_classes
 else:
-    num_classes = train_y.shape[1]
+    if args.num_tabs == 1:
+        num_classes = len(np.unique(train_y))
+        assert num_classes == train_y.max() + 1, "Labels are not continuous" # Ensure labels are continuous
+    else:
+        num_classes = train_y.shape[1]
 
 # Print dataset information
 print(f"Train: X={train_X.shape}, y={train_y.shape}")
