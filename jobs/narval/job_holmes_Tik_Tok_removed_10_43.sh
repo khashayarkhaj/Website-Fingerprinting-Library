@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1                     # Run a single task        
 #SBATCH --cpus-per-task=12              # Number of CPU cores per task
 #SBATCH --mem=128G                      # Job memory request
-#SBATCH --time=9:00:00                # Time limit hrs:min:sec
+#SBATCH --time=11:00:00                # Time limit hrs:min:sec
 #SBATCH --output=/home/kka151/projects/def-t55wang/kka151/Website-Fingerprinting-Library/jobs/narval/logs/holmes_tik_tok_removed_10_43_%j.log  # Standard output and error log
 
 
@@ -43,6 +43,7 @@ python3 -m exp.train \
   --valid_file temporal_valid \
   --feature TAM \
   --seq_len 1000 \
+  --num_classes 95\
   --train_epochs 80 \
   --batch_size 200 \
   --learning_rate 5e-4 \
