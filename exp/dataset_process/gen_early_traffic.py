@@ -17,6 +17,8 @@ np.random.seed(fix_seed)
 # Set up argument parser to get dataset name from command line arguments
 parser = argparse.ArgumentParser(description="WFlib")
 parser.add_argument("--dataset", type=str, required=True, default="Undefended", help="Dataset name")
+
+parser.add_argument("--filename", type=str, required=True, default="test", help="file name")
 parser.add_argument('-cc', '--compute_canada', type=parser_utils.str2bool, nargs='?', const=True, default=False,
                          help='Whether we are using compute canada')
 
@@ -25,9 +27,9 @@ args = parser.parse_args()
 dataset_path = "./datasets"
 if args.compute_canada:
     dataset_path = '/home/kka151/scratch/holmes/datasets'
-
+filename = args.filename
 in_path = os.path.join(dataset_path, f"{args.dataset}")
-in_file = os.path.join(in_path, "test.npz")
+in_file = os.path.join(in_path, f"{filename}.npz")
 print(f'script for gen early traffic started')
 data = np.load(in_file)
 # X = data["X"]
@@ -40,7 +42,7 @@ for p in [i for i in range(10, 101)]: # I changed this
     X = data["X"]
     y = data["y"]
     feat_length = X.shape[1]
-    out_file = os.path.join(in_path, f"test_p{p}.npz")
+    out_file = os.path.join(in_path, f"{filename}_p{p}.npz")
     if os.path.exists(out_file):
         print(f'{out_file} already exists')
         continue
