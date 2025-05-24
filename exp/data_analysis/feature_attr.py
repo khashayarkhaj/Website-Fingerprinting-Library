@@ -46,6 +46,8 @@ parser.add_argument("--save_name", type=str, default="base", help="Name of the m
 parser.add_argument('-cc', '--compute_canada', type=parser_utils.str2bool, nargs='?', const=True, default=False,
                          help='Whether we are using compute canada')
 
+parser.add_argument("--num_classes", type=int, default=None, help="fixed num classes") # added this for my own ow evaluation
+
 # Parse arguments
 args = parser.parse_args()
 dataset_path = "./datasets"
@@ -73,10 +75,13 @@ if os.path.exists(out_file):
 
 # Load validation data
 valid_X, valid_y = data_processor.load_data(os.path.join(in_path, f"{args.in_file}.npz"), args.feature, args.seq_len)
-num_classes = len(np.unique(valid_y))
+if args.num_classes is not None:
+    num_classes = args.num_classes
+else:
+    num_classes = len(np.unique(valid_y))
 
-# Ensure there are test samples for all categories
-assert num_classes == valid_y.max() + 1, "Labels are not continuous"
+    # Ensure there are test samples for all categories
+    assert num_classes == valid_y.max() + 1, "Labels are not continuous"
 
 # Print dataset information
 print(f"Valid: X={valid_X.shape}, y={valid_y.shape}")

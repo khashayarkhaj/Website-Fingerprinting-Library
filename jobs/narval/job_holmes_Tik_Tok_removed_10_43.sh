@@ -61,6 +61,7 @@ python3 -m exp.data_analysis.feature_attr \
   --device cpu \
   --feature TAM \
   --seq_len 1000 \
+  --num_classes 95\
   --save_name temporal \
   --attr_method ${attr_method} \
   -cc True
@@ -95,6 +96,7 @@ python3 -m exp.train \
   --seq_len 2000 \
   --train_epochs 80 \
   --batch_size 256 \
+  --num_classes 95\
   --learning_rate 5e-4 \
   --loss SupConLoss \
   --optimizer AdamW \
@@ -109,6 +111,7 @@ python3 -m exp.data_analysis.spatial_analysis \
   --device cuda \
   --valid_file taf_aug_valid \
   --feature TAF \
+  --num_classes 95\
   --seq_len 2000 \
   --batch_size 256 \
   --save_name max_f1 \
@@ -161,6 +164,7 @@ do
     --feature TAF \
     --seq_len 2000 \
     --batch_size 256 \
+    --num_classes 95\
     --eval_method Holmes \
     --eval_metrics Accuracy Precision Recall F1-score \
     --load_name max_f1 \
