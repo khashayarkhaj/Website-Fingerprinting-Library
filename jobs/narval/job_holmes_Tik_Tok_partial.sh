@@ -27,7 +27,7 @@ dataset=Tik_Tok
 attr_method=DeepLiftShap 
 
 
-
+python3 -m exp.dataset_process.gen_early_traffic  --dataset Tik_Tok -cc True 
 for percent in {20..100..1}
 do
     python3 -m exp.dataset_process.gen_taf \
