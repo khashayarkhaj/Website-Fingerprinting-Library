@@ -118,29 +118,29 @@ python3 -m exp.dataset_process.gen_early_traffic  --dataset ${dataset} -cc True
 python3 -m exp.dataset_process.gen_early_traffic  --dataset ${dataset} -cc True --filename test_neglected
 
 
-# for percent in {20..100..1}
-# do
-#     python3 -m exp.dataset_process.gen_taf \
-#         --dataset ${dataset} \
-#         --seq_len 10000 \
-#         --in_file test_p${percent} \
-#         -cc True
+for percent in {20..100..1}
+do
+    python3 -m exp.dataset_process.gen_taf \
+        --dataset ${dataset} \
+        --seq_len 10000 \
+        --in_file test_p${percent} \
+        -cc True
 
-#     python3 -m exp.test \
-#     --dataset ${dataset} \
-#     --model Holmes \
-#     --device cuda \
-#     --valid_file taf_aug_valid \
-#     --test_file taf_test_p${percent} \
-#     --feature TAF \
-#     --seq_len 2000 \
-#     --batch_size 256 \
-#     --eval_method Holmes \
-#     --eval_metrics Accuracy Precision Recall F1-score \
-#     --load_name max_f1 \
-#     --result_file test_p${percent} \
-#     -cc True
-# done
+    python3 -m exp.test \
+    --dataset ${dataset} \
+    --model Holmes \
+    --device cuda \
+    --valid_file taf_aug_valid \
+    --test_file taf_test_p${percent} \
+    --feature TAF \
+    --seq_len 2000 \
+    --batch_size 256 \
+    --eval_method Holmes \
+    --eval_metrics Accuracy Precision Recall F1-score \
+    --load_name max_f1 \
+    --result_file test_p${percent} \
+    -cc True
+done
 
 
 for percent in {20..100..1}

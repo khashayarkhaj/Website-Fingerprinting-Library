@@ -18,7 +18,7 @@ np.random.seed(fix_seed)
 parser = argparse.ArgumentParser(description="WFlib")
 parser.add_argument("--dataset", type=str, required=True, default="Undefended", help="Dataset name")
 
-parser.add_argument("--filename", type=str, required=True, default="test", help="file name")
+parser.add_argument("--filename", type=str, required=False, default="test", help="file name")
 parser.add_argument('-cc', '--compute_canada', type=parser_utils.str2bool, nargs='?', const=True, default=False,
                          help='Whether we are using compute canada')
 
