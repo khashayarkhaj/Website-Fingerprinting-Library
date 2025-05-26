@@ -47,6 +47,8 @@ parser.add_argument("--load_name", type=str, default="base", help="Name of the m
 parser.add_argument("--result_file", type=str, default="result", help="File to save test results")
 parser.add_argument('-cc', '--compute_canada', type=parser_utils.str2bool, nargs='?', const=True, default=False,
                          help='Whether we are using compute canada')
+parser.add_argument('--random_labels', type=parser_utils.str2bool, nargs='?', const=True, default=False,
+                         help='Wether we want to assign random labels to the test instances (we only care about model predictions of ow evaluation) - ideally, num classes should be given in this case')
 parser.add_argument("--num_classes", type=int, default=None, help="fixed num classes") # added this for my own ow evaluation
 
 # Parse arguments
