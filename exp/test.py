@@ -77,11 +77,16 @@ out_file = os.path.join(log_path, f"{args.result_file}.json")
 print(f"loading test file: ", os.path.join(in_path, f"{args.test_file}.npz"))
 valid_X, valid_y = data_processor.load_data(os.path.join(in_path, f"{args.valid_file}.npz"), args.feature, args.seq_len, args.num_tabs)
 test_X, test_y = data_processor.load_data(os.path.join(in_path, f"{args.test_file}.npz"), args.feature, args.seq_len, args.num_tabs)
+
 if args.num_classes is not None:
     num_classes = args.num_classes
+    if args.random_labels:
+        test_y = torch.randint(0, args.num_classes, test_y.shape)
+    
 else:
     num_classes = len(np.unique(test_y))
-
+    if args.random_labels:
+        test_y = torch.randint(0, args.num_classes, test_y.shape)
     if args.num_tabs == 1:
         num_classes = len(np.unique(test_y))
         assert num_classes == test_y.max() + 1, "Labels are not continuous" # Ensure labels are continuous
