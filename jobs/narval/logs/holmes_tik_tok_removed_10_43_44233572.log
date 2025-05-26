@@ -1,0 +1,2296 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_early_traffic.py", line 34, in <module>
+    data = np.load(in_file)
+           ^^^^^^^^^^^^^^^^
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/scipy-stack/2024a/lib/python3.11/site-packages/numpy/lib/npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kka151/scratch/holmes/datasets/c/test.npz'
+script for gen early traffic started
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_early_traffic.py", line 34, in <module>
+    data = np.load(in_file)
+           ^^^^^^^^^^^^^^^^
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/scipy-stack/2024a/lib/python3.11/site-packages/numpy/lib/npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/kka151/scratch/holmes/datasets/c/test_neglected.npz'
+script for gen early traffic started
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/dataset_process/gen_taf.py", line 38, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/lustre06/project/6058534/kka151/Website-Fingerprinting-Library/exp/test.py", line 68, in <module>
+    raise FileNotFoundError(f"The dataset path does not exist: {in_path}")
+FileNotFoundError: The dataset path does not exist: /home/kka151/scratch/holmes/datasets/c

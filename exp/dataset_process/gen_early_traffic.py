@@ -35,7 +35,6 @@ data = np.load(in_file)
 # X = data["X"]
 # y = data["y"]
 # feat_length = X.shape[1]
-
 # for p in [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]:
 for p in [i for i in range(10, 101)]: # I changed this
     print(f'creating test set for p = {p}')
