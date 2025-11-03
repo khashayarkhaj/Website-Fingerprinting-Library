@@ -219,9 +219,7 @@ def model_train(
             metric_best_value = valid_result[save_metric]
             torch.save(model.state_dict(), out_file)
 
-import time
 
-def model_eval(
         model, 
         test_iter, 
         valid_iter, 
@@ -234,18 +232,12 @@ def model_eval(
         num_tabs,
         device,
         save_path = None,
-        save_predictions = False,
-        measure_inference_time = False,  # New parameter
+        save_predictions = False,  # New parameter to control saving
         filename_predict = None,
         filename_true = None,
         filename_logits = None,
-        filename_prob = None,
-        filename_inference_time = None
+        filename_prob = None
     ):
-    
-    # Initialize timing variables
-    inference_times = []
-    
     if eval_method == "common":
         with torch.no_grad():
             model.eval()
@@ -254,23 +246,7 @@ def model_eval(
 
             for index, cur_data in enumerate(tqdm(test_iter, desc= f'evaluating model with {eval_method}')):
                 cur_X, cur_y = cur_data[0].to(device), cur_data[1].to(device)
-                
-                # Measure inference time if requested
-                if measure_inference_time:
-                    if device.type == 'cuda':
-                        torch.cuda.synchronize()
-                    start_time = time.perf_counter()
-                
                 outs = model(cur_X)
-                
-                if measure_inference_time:
-                    if device.type == 'cuda':
-                        torch.cuda.synchronize()
-                    end_time = time.perf_counter()
-                    batch_time = end_time - start_time
-                    # Store time per sample
-                    inference_times.extend([batch_time / cur_X.shape[0]] * cur_X.shape[0])
-                
                 if num_tabs == 1:
                     cur_pred = torch.argsort(outs, dim=1, descending=True)[:,0]
                 else:
@@ -288,25 +264,8 @@ def model_eval(
 
             y_pred = np.concatenate(y_pred)
             y_true = np.concatenate(y_true)
-            
     elif eval_method == "kNN":
-        # For kNN, timing would be more complex - measure the entire operation
-        if measure_inference_time:
-            if device.type == 'cuda':
-                torch.cuda.synchronize()
-            start_time = time.perf_counter()
-        
         y_true, y_pred = knn_monitor(model, device, valid_iter, test_iter, num_classes, 10)
-        
-        if measure_inference_time:
-            if device.type == 'cuda':
-                torch.cuda.synchronize()
-            end_time = time.perf_counter()
-            total_time = end_time - start_time
-            # Approximate per-sample time
-            num_samples = len(y_true)
-            inference_times = [total_time / num_samples] * num_samples
-            
     elif eval_method == "Holmes":
         open_threshold = 1e-2
         spatial_dist_file = os.path.join(ckp_path, "spatial_distribution.npz")
@@ -319,40 +278,28 @@ def model_eval(
             model.eval()
             y_pred = []
             y_true = []
-            all_logits = []
-            all_probs = []
+            all_logits = []  # To store all logits/decision values
+            all_probs = []   # To store softmax probabilities if needed
             
             for index, cur_data in enumerate(tqdm(test_iter, desc=f'evaluating model with {eval_method}')):
                 cur_X, cur_y = cur_data[0].to(device), cur_data[1].to(device)
-                
-                # Measure inference time if requested
-                if measure_inference_time:
-                    if device.type == 'cuda':
-                        torch.cuda.synchronize()
-                    start_time = time.perf_counter()
-                
                 embs = model(cur_X).cpu().numpy()
-                
-                if measure_inference_time:
-                    if device.type == 'cuda':
-                        torch.cuda.synchronize()
-                    end_time = time.perf_counter()
-                    batch_time = end_time - start_time
-                    # Store time per sample
-                    inference_times.extend([batch_time / cur_X.shape[0]] * cur_X.shape[0])
-                
                 cur_y = cur_y.cpu().numpy()
                 
                 # Calculate the similarity scores
                 all_sims = 1 - cosine_similarity(embs, webs_centroid)
-                decision_values = all_sims - webs_radius
+                decision_values = all_sims - webs_radius  # These are your "logits"
                 
+                # Store the decision values for each instance
                 all_logits.append(decision_values)
                 
+                # If you want probabilities, convert decision values to probabilities
+                # Using softmax (optional)
                 probs = np.exp(-decision_values)
                 probs = probs / np.sum(probs, axis=1, keepdims=True)
                 all_probs.append(probs)
                 
+                # Continue with your existing logic
                 outs = np.argmin(decision_values, axis=1)
                 
                 if scenario == "Open-world":
@@ -363,27 +310,20 @@ def model_eval(
                 y_pred.append(outs)
                 y_true.append(cur_y)
             
+            # Concatenate all results
             y_pred = np.concatenate(y_pred).flatten()
             y_true = np.concatenate(y_true).flatten()
-            all_logits = np.concatenate(all_logits, axis=0)
-            all_probs = np.concatenate(all_probs, axis=0)
+            all_logits = np.concatenate(all_logits, axis=0)  # Combine all logits
+            all_probs = np.concatenate(all_probs, axis=0)    # Combine all probabilities
     else:
         raise ValueError(f"Evaluation method {eval_method} is not matched.")
     
-    # Calculate and report average inference time
-    if measure_inference_time and len(inference_times) > 0:
-        inference_times = np.array(inference_times)
-        avg_time = np.mean(inference_times)
-        std_time = np.std(inference_times)
-        print(f"\nInference Time Statistics:")
-        print(f"  Average time per sample: {avg_time*1000:.4f} ms")
-        print(f"  Std deviation: {std_time*1000:.4f} ms")
-        print(f"  Total samples: {len(inference_times)}")
-    
     # Save predictions and true labels if requested
     if save_predictions and save_path is not None:
+        # Create directory if it doesn't exist
         os.makedirs(save_path, exist_ok=True)
         
+        # Save predictions and true labels separately
         if filename_predict is None:
             filename_predict = f"{eval_method}_predictions.npy"
         if filename_true is None:
@@ -392,7 +332,6 @@ def model_eval(
             filename_logits = f"{eval_method}_logits.npy"
         if filename_prob is None:
             filename_prob = f"{eval_method}_probs.npy"
-            
         pred_path = os.path.join(save_path, filename_predict)
         true_path = os.path.join(save_path, filename_true)
         logit_path = os.path.join(save_path, filename_logits)
@@ -407,23 +346,9 @@ def model_eval(
         print(f"Saved logits to {logit_path}")
         print(f"Saved proba to {prob_path}")
     
-    # Save inference times if measured
-    if measure_inference_time and save_path is not None and len(inference_times) > 0:
-        if filename_inference_time is None:
-            filename_inference_time = f"{eval_method}_inference_times.npy"
-        time_path = os.path.join(save_path, filename_inference_time)
-        np.save(time_path, inference_times)
-        print(f"Saved inference times to {time_path}")
-    
     result = measurement(y_true, y_pred, eval_metrics, num_tabs)
-    
-    # Add inference time statistics to results
-    if measure_inference_time and len(inference_times) > 0:
-        result['avg_inference_time_ms'] = float(avg_time * 1000)
-        result['std_inference_time_ms'] = float(std_time * 1000)
-        result['total_samples'] = len(inference_times)
-    
     print(result)
+
     
     with open(out_file, "w") as fp:
         json.dump(result, fp, indent=4)
