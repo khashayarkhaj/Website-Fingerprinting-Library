@@ -1,0 +1,1215 @@
+starting gen taf script for test_neglected_p20
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p20.npz has been generated.
+finished gen taf script for test_neglected_p20
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p20.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:16,  1.14it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  7.81it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.60it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.20it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.19it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p20_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p20_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p20_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p20_Holmes_probs.npy
+{'Accuracy': 0.0116, 'Precision': 0.0077, 'Recall': 0.011, 'F1-score': 0.0068}
+starting gen taf script for test_neglected_p21
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p21.npz has been generated.
+finished gen taf script for test_neglected_p21
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p21.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:16,  1.14it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  7.82it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.57it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.05it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.23it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p21_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p21_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p21_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p21_Holmes_probs.npy
+{'Accuracy': 0.011, 'Precision': 0.0092, 'Recall': 0.0106, 'F1-score': 0.0069}
+starting gen taf script for test_neglected_p22
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p22.npz has been generated.
+finished gen taf script for test_neglected_p22
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p22.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:16,  1.17it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  7.92it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.72it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.26it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.49it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p22_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p22_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p22_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p22_Holmes_probs.npy
+{'Accuracy': 0.0116, 'Precision': 0.0117, 'Recall': 0.0114, 'F1-score': 0.0077}
+starting gen taf script for test_neglected_p23
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p23.npz has been generated.
+finished gen taf script for test_neglected_p23
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p23.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:12,  1.48it/s]evaluating model with Holmes:  25%|██▌       | 5/20 [00:00<00:01,  8.09it/s]evaluating model with Holmes:  50%|█████     | 10/20 [00:00<00:00, 16.25it/s]evaluating model with Holmes:  75%|███████▌  | 15/20 [00:00<00:00, 23.52it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 29.58it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 17.94it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p23_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p23_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p23_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p23_Holmes_probs.npy
+{'Accuracy': 0.0126, 'Precision': 0.0135, 'Recall': 0.0121, 'F1-score': 0.0089}
+starting gen taf script for test_neglected_p24
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p24.npz has been generated.
+finished gen taf script for test_neglected_p24
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p24.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.29it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.62it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:00<00:00, 15.86it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.58it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.45it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p24_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p24_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p24_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p24_Holmes_probs.npy
+{'Accuracy': 0.0116, 'Precision': 0.0106, 'Recall': 0.0112, 'F1-score': 0.0069}
+starting gen taf script for test_neglected_p25
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p25.npz has been generated.
+finished gen taf script for test_neglected_p25
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p25.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.29it/s]evaluating model with Holmes:  25%|██▌       | 5/20 [00:00<00:02,  7.29it/s]evaluating model with Holmes:  50%|█████     | 10/20 [00:00<00:00, 14.90it/s]evaluating model with Holmes:  75%|███████▌  | 15/20 [00:01<00:00, 21.96it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 28.02it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.42it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p25_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p25_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p25_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p25_Holmes_probs.npy
+{'Accuracy': 0.0118, 'Precision': 0.0107, 'Recall': 0.0114, 'F1-score': 0.0065}
+starting gen taf script for test_neglected_p26
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p26.npz has been generated.
+finished gen taf script for test_neglected_p26
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p26.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.31it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.74it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:00<00:00, 15.77it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.56it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.53it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p26_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p26_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p26_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p26_Holmes_probs.npy
+{'Accuracy': 0.0124, 'Precision': 0.0101, 'Recall': 0.012, 'F1-score': 0.007}
+starting gen taf script for test_neglected_p27
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p27.npz has been generated.
+finished gen taf script for test_neglected_p27
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p27.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.25it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.44it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.56it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.33it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.19it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p27_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p27_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p27_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p27_Holmes_probs.npy
+{'Accuracy': 0.0134, 'Precision': 0.0142, 'Recall': 0.0131, 'F1-score': 0.0082}
+starting gen taf script for test_neglected_p28
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p28.npz has been generated.
+finished gen taf script for test_neglected_p28
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p28.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.29it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.61it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.68it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.47it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.35it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p28_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p28_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p28_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p28_Holmes_probs.npy
+{'Accuracy': 0.015, 'Precision': 0.0182, 'Recall': 0.0145, 'F1-score': 0.0097}
+starting gen taf script for test_neglected_p29
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p29.npz has been generated.
+finished gen taf script for test_neglected_p29
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p29.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.20it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.14it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.00it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.69it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.67it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p29_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p29_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p29_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p29_Holmes_probs.npy
+{'Accuracy': 0.0142, 'Precision': 0.0141, 'Recall': 0.0136, 'F1-score': 0.0086}
+starting gen taf script for test_neglected_p30
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p30.npz has been generated.
+finished gen taf script for test_neglected_p30
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p30.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:16,  1.18it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  7.97it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.78it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.33it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.51it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p30_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p30_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p30_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p30_Holmes_probs.npy
+{'Accuracy': 0.0134, 'Precision': 0.0098, 'Recall': 0.0129, 'F1-score': 0.0075}
+starting gen taf script for test_neglected_p31
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p31.npz has been generated.
+finished gen taf script for test_neglected_p31
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p31.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.27it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.49it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.49it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.00it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.11it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p31_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p31_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p31_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p31_Holmes_probs.npy
+{'Accuracy': 0.0148, 'Precision': 0.0128, 'Recall': 0.0141, 'F1-score': 0.0089}
+starting gen taf script for test_neglected_p32
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p32.npz has been generated.
+finished gen taf script for test_neglected_p32
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p32.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.26it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.43it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.31it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.98it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.06it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p32_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p32_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p32_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p32_Holmes_probs.npy
+{'Accuracy': 0.0122, 'Precision': 0.0066, 'Recall': 0.0117, 'F1-score': 0.0059}
+starting gen taf script for test_neglected_p33
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p33.npz has been generated.
+finished gen taf script for test_neglected_p33
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p33.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.25it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.39it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.31it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.85it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.14it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p33_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p33_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p33_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p33_Holmes_probs.npy
+{'Accuracy': 0.0132, 'Precision': 0.0104, 'Recall': 0.0126, 'F1-score': 0.0072}
+starting gen taf script for test_neglected_p34
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p34.npz has been generated.
+finished gen taf script for test_neglected_p34
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p34.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.35it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.95it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:00<00:00, 16.05it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.70it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.79it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p34_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p34_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p34_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p34_Holmes_probs.npy
+{'Accuracy': 0.0146, 'Precision': 0.0118, 'Recall': 0.0142, 'F1-score': 0.0084}
+starting gen taf script for test_neglected_p35
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p35.npz has been generated.
+finished gen taf script for test_neglected_p35
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p35.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.26it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.47it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.50it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.16it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.09it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p35_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p35_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p35_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p35_Holmes_probs.npy
+{'Accuracy': 0.0134, 'Precision': 0.0099, 'Recall': 0.0128, 'F1-score': 0.0069}
+starting gen taf script for test_neglected_p36
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p36.npz has been generated.
+finished gen taf script for test_neglected_p36
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p36.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.32it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.83it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:00<00:00, 16.11it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.83it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.75it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p36_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p36_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p36_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p36_Holmes_probs.npy
+{'Accuracy': 0.0116, 'Precision': 0.0065, 'Recall': 0.0112, 'F1-score': 0.0053}
+starting gen taf script for test_neglected_p37
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p37.npz has been generated.
+finished gen taf script for test_neglected_p37
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p37.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.23it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.35it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.25it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.82it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.91it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p37_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p37_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p37_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p37_Holmes_probs.npy
+{'Accuracy': 0.0116, 'Precision': 0.0087, 'Recall': 0.0112, 'F1-score': 0.0057}
+starting gen taf script for test_neglected_p38
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p38.npz has been generated.
+finished gen taf script for test_neglected_p38
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p38.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.23it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.24it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.09it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.70it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.84it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p38_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p38_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p38_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p38_Holmes_probs.npy
+{'Accuracy': 0.0116, 'Precision': 0.0097, 'Recall': 0.0111, 'F1-score': 0.0057}
+starting gen taf script for test_neglected_p39
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p39.npz has been generated.
+finished gen taf script for test_neglected_p39
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p39.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.21it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.15it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.11it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.64it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.76it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p39_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p39_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p39_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p39_Holmes_probs.npy
+{'Accuracy': 0.012, 'Precision': 0.0111, 'Recall': 0.0116, 'F1-score': 0.006}
+starting gen taf script for test_neglected_p40
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p40.npz has been generated.
+finished gen taf script for test_neglected_p40
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p40.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.28it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.61it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.82it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.57it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.47it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p40_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p40_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p40_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p40_Holmes_probs.npy
+{'Accuracy': 0.012, 'Precision': 0.0082, 'Recall': 0.0116, 'F1-score': 0.0055}
+starting gen taf script for test_neglected_p41
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p41.npz has been generated.
+finished gen taf script for test_neglected_p41
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p41.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.26it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.46it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.53it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.30it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.21it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p41_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p41_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p41_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p41_Holmes_probs.npy
+{'Accuracy': 0.0128, 'Precision': 0.0104, 'Recall': 0.0124, 'F1-score': 0.0062}
+starting gen taf script for test_neglected_p42
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p42.npz has been generated.
+finished gen taf script for test_neglected_p42
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p42.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.20it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.22it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.17it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.83it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.83it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p42_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p42_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p42_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p42_Holmes_probs.npy
+{'Accuracy': 0.0132, 'Precision': 0.0128, 'Recall': 0.0127, 'F1-score': 0.0067}
+starting gen taf script for test_neglected_p43
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p43.npz has been generated.
+finished gen taf script for test_neglected_p43
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p43.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.25it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.41it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.44it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.19it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.13it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p43_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p43_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p43_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p43_Holmes_probs.npy
+{'Accuracy': 0.0132, 'Precision': 0.0142, 'Recall': 0.0127, 'F1-score': 0.0067}
+starting gen taf script for test_neglected_p44
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p44.npz has been generated.
+finished gen taf script for test_neglected_p44
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p44.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.26it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.43it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.58it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.27it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.11it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p44_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p44_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p44_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p44_Holmes_probs.npy
+{'Accuracy': 0.0126, 'Precision': 0.0087, 'Recall': 0.0121, 'F1-score': 0.0059}
+starting gen taf script for test_neglected_p45
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p45.npz has been generated.
+finished gen taf script for test_neglected_p45
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p45.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.31it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.74it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:00<00:00, 16.01it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.76it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.75it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p45_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p45_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p45_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p45_Holmes_probs.npy
+{'Accuracy': 0.0126, 'Precision': 0.0079, 'Recall': 0.0121, 'F1-score': 0.0057}
+starting gen taf script for test_neglected_p46
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p46.npz has been generated.
+finished gen taf script for test_neglected_p46
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p46.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.21it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.20it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.96it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.61it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.82it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p46_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p46_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p46_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p46_Holmes_probs.npy
+{'Accuracy': 0.013, 'Precision': 0.015, 'Recall': 0.0125, 'F1-score': 0.0065}
+starting gen taf script for test_neglected_p47
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p47.npz has been generated.
+finished gen taf script for test_neglected_p47
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p47.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.35it/s]evaluating model with Holmes:  15%|█▌        | 3/20 [00:00<00:03,  4.27it/s]evaluating model with Holmes:  40%|████      | 8/20 [00:00<00:00, 12.50it/s]evaluating model with Holmes:  65%|██████▌   | 13/20 [00:01<00:00, 20.09it/s]evaluating model with Holmes:  90%|█████████ | 18/20 [00:01<00:00, 26.75it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.15it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p47_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p47_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p47_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p47_Holmes_probs.npy
+{'Accuracy': 0.012, 'Precision': 0.0108, 'Recall': 0.0115, 'F1-score': 0.0058}
+starting gen taf script for test_neglected_p48
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p48.npz has been generated.
+finished gen taf script for test_neglected_p48
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p48.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.22it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.21it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.03it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.58it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.80it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p48_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p48_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p48_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p48_Holmes_probs.npy
+{'Accuracy': 0.0128, 'Precision': 0.0113, 'Recall': 0.0123, 'F1-score': 0.006}
+starting gen taf script for test_neglected_p49
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p49.npz has been generated.
+finished gen taf script for test_neglected_p49
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p49.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.23it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.25it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.13it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.73it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.80it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p49_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p49_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p49_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p49_Holmes_probs.npy
+{'Accuracy': 0.0122, 'Precision': 0.0111, 'Recall': 0.0118, 'F1-score': 0.0055}
+starting gen taf script for test_neglected_p50
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p50.npz has been generated.
+finished gen taf script for test_neglected_p50
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p50.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.33it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.81it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:00<00:00, 16.12it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.88it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.76it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p50_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p50_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p50_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p50_Holmes_probs.npy
+{'Accuracy': 0.0118, 'Precision': 0.0083, 'Recall': 0.0114, 'F1-score': 0.0049}
+starting gen taf script for test_neglected_p51
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p51.npz has been generated.
+finished gen taf script for test_neglected_p51
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p51.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.22it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.19it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.98it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.65it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.76it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p51_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p51_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p51_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p51_Holmes_probs.npy
+{'Accuracy': 0.0122, 'Precision': 0.0084, 'Recall': 0.0119, 'F1-score': 0.0051}
+starting gen taf script for test_neglected_p52
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p52.npz has been generated.
+finished gen taf script for test_neglected_p52
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p52.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.21it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.20it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.05it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.73it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.71it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p52_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p52_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p52_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p52_Holmes_probs.npy
+{'Accuracy': 0.0126, 'Precision': 0.0084, 'Recall': 0.0122, 'F1-score': 0.0054}
+starting gen taf script for test_neglected_p53
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p53.npz has been generated.
+finished gen taf script for test_neglected_p53
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p53.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.27it/s]evaluating model with Holmes:  25%|██▌       | 5/20 [00:00<00:02,  7.19it/s]evaluating model with Holmes:  50%|█████     | 10/20 [00:00<00:00, 14.78it/s]evaluating model with Holmes:  75%|███████▌  | 15/20 [00:01<00:00, 21.82it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 27.94it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.21it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p53_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p53_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p53_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p53_Holmes_probs.npy
+{'Accuracy': 0.012, 'Precision': 0.0107, 'Recall': 0.0116, 'F1-score': 0.0051}
+starting gen taf script for test_neglected_p54
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p54.npz has been generated.
+finished gen taf script for test_neglected_p54
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p54.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:17,  1.11it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:01<00:01,  7.62it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.30it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 20.83it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 14.97it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p54_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p54_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p54_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p54_Holmes_probs.npy
+{'Accuracy': 0.0118, 'Precision': 0.012, 'Recall': 0.0114, 'F1-score': 0.0052}
+starting gen taf script for test_neglected_p55
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p55.npz has been generated.
+finished gen taf script for test_neglected_p55
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p55.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:18,  1.05it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:01<00:01,  7.22it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 13.70it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 20.09it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 14.36it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p55_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p55_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p55_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p55_Holmes_probs.npy
+{'Accuracy': 0.0108, 'Precision': 0.0086, 'Recall': 0.0105, 'F1-score': 0.0045}
+starting gen taf script for test_neglected_p56
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p56.npz has been generated.
+finished gen taf script for test_neglected_p56
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p56.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.23it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.27it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.28it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.02it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.86it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p56_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p56_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p56_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p56_Holmes_probs.npy
+{'Accuracy': 0.0108, 'Precision': 0.014, 'Recall': 0.0103, 'F1-score': 0.0047}
+starting gen taf script for test_neglected_p57
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p57.npz has been generated.
+finished gen taf script for test_neglected_p57
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p57.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.26it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.52it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.71it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.32it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.35it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p57_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p57_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p57_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p57_Holmes_probs.npy
+{'Accuracy': 0.011, 'Precision': 0.0151, 'Recall': 0.0105, 'F1-score': 0.0048}
+starting gen taf script for test_neglected_p58
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p58.npz has been generated.
+finished gen taf script for test_neglected_p58
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p58.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:13,  1.39it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  9.16it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:00<00:00, 16.45it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 23.28it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 17.11it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p58_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p58_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p58_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p58_Holmes_probs.npy
+{'Accuracy': 0.0104, 'Precision': 0.0085, 'Recall': 0.0101, 'F1-score': 0.004}
+starting gen taf script for test_neglected_p59
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p59.npz has been generated.
+finished gen taf script for test_neglected_p59
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p59.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:17,  1.09it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:01<00:01,  7.55it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.09it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 20.39it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 14.74it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p59_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p59_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p59_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p59_Holmes_probs.npy
+{'Accuracy': 0.0114, 'Precision': 0.0085, 'Recall': 0.0112, 'F1-score': 0.0046}
+starting gen taf script for test_neglected_p60
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p60.npz has been generated.
+finished gen taf script for test_neglected_p60
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p60.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.19it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.12it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.81it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.39it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.56it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p60_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p60_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p60_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p60_Holmes_probs.npy
+{'Accuracy': 0.0116, 'Precision': 0.0107, 'Recall': 0.0114, 'F1-score': 0.0047}
+starting gen taf script for test_neglected_p61
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p61.npz has been generated.
+finished gen taf script for test_neglected_p61
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p61.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.20it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.08it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.95it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.57it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.64it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p61_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p61_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p61_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p61_Holmes_probs.npy
+{'Accuracy': 0.0112, 'Precision': 0.0089, 'Recall': 0.0111, 'F1-score': 0.0044}
+starting gen taf script for test_neglected_p62
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p62.npz has been generated.
+finished gen taf script for test_neglected_p62
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p62.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.26it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.48it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.44it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.07it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.13it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p62_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p62_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p62_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p62_Holmes_probs.npy
+{'Accuracy': 0.0114, 'Precision': 0.0098, 'Recall': 0.0112, 'F1-score': 0.0044}
+starting gen taf script for test_neglected_p63
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p63.npz has been generated.
+finished gen taf script for test_neglected_p63
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p63.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.23it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.28it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.33it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.07it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.98it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p63_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p63_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p63_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p63_Holmes_probs.npy
+{'Accuracy': 0.0116, 'Precision': 0.0129, 'Recall': 0.0115, 'F1-score': 0.0047}
+starting gen taf script for test_neglected_p64
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p64.npz has been generated.
+finished gen taf script for test_neglected_p64
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p64.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:17,  1.09it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:01<00:01,  7.59it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.08it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 20.47it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 14.77it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p64_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p64_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p64_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p64_Holmes_probs.npy
+{'Accuracy': 0.0124, 'Precision': 0.014, 'Recall': 0.0121, 'F1-score': 0.0055}
+starting gen taf script for test_neglected_p65
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p65.npz has been generated.
+finished gen taf script for test_neglected_p65
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p65.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:13,  1.40it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  9.29it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:00<00:00, 16.59it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 23.45it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 17.42it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p65_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p65_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p65_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p65_Holmes_probs.npy
+{'Accuracy': 0.0112, 'Precision': 0.008, 'Recall': 0.011, 'F1-score': 0.0044}
+starting gen taf script for test_neglected_p66
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p66.npz has been generated.
+finished gen taf script for test_neglected_p66
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p66.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.19it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.16it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.19it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.88it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.90it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p66_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p66_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p66_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p66_Holmes_probs.npy
+{'Accuracy': 0.0114, 'Precision': 0.0089, 'Recall': 0.0112, 'F1-score': 0.0045}
+starting gen taf script for test_neglected_p67
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p67.npz has been generated.
+finished gen taf script for test_neglected_p67
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p67.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.25it/s]evaluating model with Holmes:  25%|██▌       | 5/20 [00:00<00:02,  7.06it/s]evaluating model with Holmes:  50%|█████     | 10/20 [00:01<00:00, 14.46it/s]evaluating model with Holmes:  75%|███████▌  | 15/20 [00:01<00:00, 21.39it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 27.48it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.00it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p67_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p67_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p67_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p67_Holmes_probs.npy
+{'Accuracy': 0.0116, 'Precision': 0.0118, 'Recall': 0.0113, 'F1-score': 0.005}
+starting gen taf script for test_neglected_p68
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p68.npz has been generated.
+finished gen taf script for test_neglected_p68
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p68.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:17,  1.12it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:01<00:01,  7.65it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.31it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 20.86it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.07it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p68_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p68_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p68_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p68_Holmes_probs.npy
+{'Accuracy': 0.0114, 'Precision': 0.0132, 'Recall': 0.0111, 'F1-score': 0.0049}
+starting gen taf script for test_neglected_p69
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p69.npz has been generated.
+finished gen taf script for test_neglected_p69
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p69.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.26it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.42it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.39it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.06it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.14it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p69_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p69_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p69_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p69_Holmes_probs.npy
+{'Accuracy': 0.0116, 'Precision': 0.0127, 'Recall': 0.0113, 'F1-score': 0.0049}
+starting gen taf script for test_neglected_p70
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p70.npz has been generated.
+finished gen taf script for test_neglected_p70
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p70.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.22it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.22it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.29it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.99it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.92it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p70_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p70_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p70_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p70_Holmes_probs.npy
+{'Accuracy': 0.011, 'Precision': 0.0086, 'Recall': 0.0107, 'F1-score': 0.0041}
+starting gen taf script for test_neglected_p71
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p71.npz has been generated.
+finished gen taf script for test_neglected_p71
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p71.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.25it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.35it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.46it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.16it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.15it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p71_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p71_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p71_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p71_Holmes_probs.npy
+{'Accuracy': 0.0112, 'Precision': 0.0072, 'Recall': 0.0109, 'F1-score': 0.004}
+starting gen taf script for test_neglected_p72
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p72.npz has been generated.
+finished gen taf script for test_neglected_p72
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p72.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:16,  1.14it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  7.77it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.43it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 20.94it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.17it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p72_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p72_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p72_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p72_Holmes_probs.npy
+{'Accuracy': 0.0112, 'Precision': 0.0049, 'Recall': 0.0109, 'F1-score': 0.0039}
+starting gen taf script for test_neglected_p73
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p73.npz has been generated.
+finished gen taf script for test_neglected_p73
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p73.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:16,  1.14it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  7.76it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.57it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.13it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.22it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p73_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p73_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p73_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p73_Holmes_probs.npy
+{'Accuracy': 0.0108, 'Precision': 0.0049, 'Recall': 0.0105, 'F1-score': 0.0036}
+starting gen taf script for test_neglected_p74
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p74.npz has been generated.
+finished gen taf script for test_neglected_p74
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p74.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.23it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.26it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.35it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.04it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.01it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p74_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p74_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p74_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p74_Holmes_probs.npy
+{'Accuracy': 0.0106, 'Precision': 0.0057, 'Recall': 0.0103, 'F1-score': 0.004}
+starting gen taf script for test_neglected_p75
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p75.npz has been generated.
+finished gen taf script for test_neglected_p75
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p75.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:16,  1.17it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  7.98it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.73it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.23it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.50it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p75_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p75_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p75_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p75_Holmes_probs.npy
+{'Accuracy': 0.0106, 'Precision': 0.0067, 'Recall': 0.0102, 'F1-score': 0.0039}
+starting gen taf script for test_neglected_p76
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p76.npz has been generated.
+finished gen taf script for test_neglected_p76
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p76.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.23it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.34it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.46it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.18it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.10it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p76_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p76_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p76_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p76_Holmes_probs.npy
+{'Accuracy': 0.0104, 'Precision': 0.0039, 'Recall': 0.0101, 'F1-score': 0.0035}
+starting gen taf script for test_neglected_p77
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p77.npz has been generated.
+finished gen taf script for test_neglected_p77
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p77.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.27it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.51it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.66it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.44it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.29it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p77_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p77_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p77_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p77_Holmes_probs.npy
+{'Accuracy': 0.0104, 'Precision': 0.0095, 'Recall': 0.0101, 'F1-score': 0.0038}
+starting gen taf script for test_neglected_p78
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p78.npz has been generated.
+finished gen taf script for test_neglected_p78
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p78.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.24it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.33it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.40it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.10it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.97it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p78_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p78_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p78_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p78_Holmes_probs.npy
+{'Accuracy': 0.0102, 'Precision': 0.0042, 'Recall': 0.0099, 'F1-score': 0.0034}
+starting gen taf script for test_neglected_p79
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p79.npz has been generated.
+finished gen taf script for test_neglected_p79
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p79.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.31it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.70it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:00<00:00, 15.89it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.70it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.43it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p79_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p79_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p79_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p79_Holmes_probs.npy
+{'Accuracy': 0.0108, 'Precision': 0.0068, 'Recall': 0.0105, 'F1-score': 0.0039}
+starting gen taf script for test_neglected_p80
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p80.npz has been generated.
+finished gen taf script for test_neglected_p80
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p80.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.27it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.46it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.50it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.06it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.25it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p80_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p80_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p80_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p80_Holmes_probs.npy
+{'Accuracy': 0.01, 'Precision': 0.0076, 'Recall': 0.0098, 'F1-score': 0.0034}
+starting gen taf script for test_neglected_p81
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p81.npz has been generated.
+finished gen taf script for test_neglected_p81
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p81.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:18,  1.03it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:01<00:01,  7.18it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 13.54it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 19.91it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 14.25it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p81_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p81_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p81_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p81_Holmes_probs.npy
+{'Accuracy': 0.01, 'Precision': 0.0065, 'Recall': 0.0098, 'F1-score': 0.0034}
+starting gen taf script for test_neglected_p82
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p82.npz has been generated.
+finished gen taf script for test_neglected_p82
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p82.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.21it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.22it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.28it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.93it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.88it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p82_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p82_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p82_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p82_Holmes_probs.npy
+{'Accuracy': 0.0106, 'Precision': 0.0084, 'Recall': 0.0103, 'F1-score': 0.0039}
+starting gen taf script for test_neglected_p83
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p83.npz has been generated.
+finished gen taf script for test_neglected_p83
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p83.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:13,  1.42it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  9.29it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:00<00:00, 16.76it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 23.66it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 17.43it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p83_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p83_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p83_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p83_Holmes_probs.npy
+{'Accuracy': 0.0106, 'Precision': 0.0087, 'Recall': 0.0103, 'F1-score': 0.0039}
+starting gen taf script for test_neglected_p84
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p84.npz has been generated.
+finished gen taf script for test_neglected_p84
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p84.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:16,  1.17it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.02it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.81it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.38it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.39it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p84_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p84_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p84_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p84_Holmes_probs.npy
+{'Accuracy': 0.0104, 'Precision': 0.0051, 'Recall': 0.0101, 'F1-score': 0.0036}
+starting gen taf script for test_neglected_p85
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p85.npz has been generated.
+finished gen taf script for test_neglected_p85
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p85.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:16,  1.18it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.11it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.95it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.62it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.64it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p85_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p85_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p85_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p85_Holmes_probs.npy
+{'Accuracy': 0.011, 'Precision': 0.006, 'Recall': 0.0107, 'F1-score': 0.0041}
+starting gen taf script for test_neglected_p86
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p86.npz has been generated.
+finished gen taf script for test_neglected_p86
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p86.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.21it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.14it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.98it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.50it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.67it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p86_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p86_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p86_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p86_Holmes_probs.npy
+{'Accuracy': 0.0114, 'Precision': 0.0064, 'Recall': 0.0111, 'F1-score': 0.0045}
+starting gen taf script for test_neglected_p87
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p87.npz has been generated.
+finished gen taf script for test_neglected_p87
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p87.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:17,  1.09it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:01<00:01,  7.52it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 13.97it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 20.47it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 14.73it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p87_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p87_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p87_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p87_Holmes_probs.npy
+{'Accuracy': 0.0108, 'Precision': 0.0058, 'Recall': 0.0104, 'F1-score': 0.004}
+starting gen taf script for test_neglected_p88
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p88.npz has been generated.
+finished gen taf script for test_neglected_p88
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p88.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.26it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.42it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.39it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.96it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.15it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p88_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p88_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p88_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p88_Holmes_probs.npy
+{'Accuracy': 0.0108, 'Precision': 0.0074, 'Recall': 0.0104, 'F1-score': 0.004}
+starting gen taf script for test_neglected_p89
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p89.npz has been generated.
+finished gen taf script for test_neglected_p89
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p89.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:18,  1.03it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:01<00:01,  7.12it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 13.45it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 19.79it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 14.21it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p89_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p89_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p89_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p89_Holmes_probs.npy
+{'Accuracy': 0.011, 'Precision': 0.008, 'Recall': 0.0106, 'F1-score': 0.0042}
+starting gen taf script for test_neglected_p90
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p90.npz has been generated.
+finished gen taf script for test_neglected_p90
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p90.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.20it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.17it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.02it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.52it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.68it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p90_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p90_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p90_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p90_Holmes_probs.npy
+{'Accuracy': 0.0116, 'Precision': 0.0136, 'Recall': 0.0112, 'F1-score': 0.0045}
+starting gen taf script for test_neglected_p91
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p91.npz has been generated.
+finished gen taf script for test_neglected_p91
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p91.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:13,  1.36it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  9.07it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:00<00:00, 16.43it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 23.22it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 17.02it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p91_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p91_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p91_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p91_Holmes_probs.npy
+{'Accuracy': 0.011, 'Precision': 0.0087, 'Recall': 0.0106, 'F1-score': 0.0041}
+starting gen taf script for test_neglected_p92
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p92.npz has been generated.
+finished gen taf script for test_neglected_p92
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p92.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:16,  1.19it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.07it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.91it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.41it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.56it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p92_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p92_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p92_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p92_Holmes_probs.npy
+{'Accuracy': 0.0114, 'Precision': 0.0112, 'Recall': 0.0109, 'F1-score': 0.0046}
+starting gen taf script for test_neglected_p93
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p93.npz has been generated.
+finished gen taf script for test_neglected_p93
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p93.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.24it/s]evaluating model with Holmes:  25%|██▌       | 5/20 [00:00<00:02,  7.06it/s]evaluating model with Holmes:  50%|█████     | 10/20 [00:01<00:00, 14.49it/s]evaluating model with Holmes:  75%|███████▌  | 15/20 [00:01<00:00, 21.48it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 27.61it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.00it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p93_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p93_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p93_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p93_Holmes_probs.npy
+{'Accuracy': 0.0118, 'Precision': 0.0115, 'Recall': 0.0114, 'F1-score': 0.0049}
+starting gen taf script for test_neglected_p94
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p94.npz has been generated.
+finished gen taf script for test_neglected_p94
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p94.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.23it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.25it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.14it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.74it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.89it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p94_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p94_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p94_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p94_Holmes_probs.npy
+{'Accuracy': 0.0116, 'Precision': 0.0117, 'Recall': 0.0111, 'F1-score': 0.0048}
+starting gen taf script for test_neglected_p95
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p95.npz has been generated.
+finished gen taf script for test_neglected_p95
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p95.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.29it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.66it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.77it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.44it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.32it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p95_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p95_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p95_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p95_Holmes_probs.npy
+{'Accuracy': 0.0114, 'Precision': 0.0105, 'Recall': 0.0109, 'F1-score': 0.0047}
+starting gen taf script for test_neglected_p96
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p96.npz has been generated.
+finished gen taf script for test_neglected_p96
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p96.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:14,  1.32it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.82it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:00<00:00, 15.92it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 22.68it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.68it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p96_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p96_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p96_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p96_Holmes_probs.npy
+{'Accuracy': 0.0112, 'Precision': 0.0088, 'Recall': 0.0107, 'F1-score': 0.0044}
+starting gen taf script for test_neglected_p97
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p97.npz has been generated.
+finished gen taf script for test_neglected_p97
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p97.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:01<00:19,  1.02s/it]evaluating model with Holmes:  30%|███       | 6/20 [00:01<00:02,  6.88it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 12.92it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 19.19it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 13.59it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p97_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p97_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p97_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p97_Holmes_probs.npy
+{'Accuracy': 0.0114, 'Precision': 0.0077, 'Recall': 0.011, 'F1-score': 0.0042}
+starting gen taf script for test_neglected_p98
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p98.npz has been generated.
+finished gen taf script for test_neglected_p98
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p98.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:16,  1.17it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.06it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 14.87it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.54it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.52it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p98_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p98_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p98_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p98_Holmes_probs.npy
+{'Accuracy': 0.0116, 'Precision': 0.0086, 'Recall': 0.0112, 'F1-score': 0.0045}
+starting gen taf script for test_neglected_p99
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p99.npz has been generated.
+finished gen taf script for test_neglected_p99
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p99.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.24it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.34it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.19it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.82it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 16.01it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p99_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p99_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p99_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p99_Holmes_probs.npy
+{'Accuracy': 0.011, 'Precision': 0.0087, 'Recall': 0.0105, 'F1-score': 0.0044}
+starting gen taf script for test_neglected_p100
+/home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p100.npz has been generated.
+finished gen taf script for test_neglected_p100
+/home/kka151/venvs/python_11_5/lib/python3.11/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+loading test file:  /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/taf_test_neglected_p100.npz
+Valid: X=torch.Size([27000, 3, 2, 2000]), y=torch.Size([27000])
+Test: X=torch.Size([5000, 3, 2, 2000]), y=torch.Size([5000])
+num_classes: 90
+evaluating model with Holmes:   0%|          | 0/20 [00:00<?, ?it/s]evaluating model with Holmes:   5%|▌         | 1/20 [00:00<00:15,  1.24it/s]evaluating model with Holmes:  30%|███       | 6/20 [00:00<00:01,  8.31it/s]evaluating model with Holmes:  55%|█████▌    | 11/20 [00:01<00:00, 15.37it/s]evaluating model with Holmes:  80%|████████  | 16/20 [00:01<00:00, 21.96it/s]evaluating model with Holmes: 100%|██████████| 20/20 [00:01<00:00, 15.97it/s]
+Saved predictions to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p100_Holmes_predictions.npy
+Saved true labels to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p100_Holmes_true_labels.npy
+Saved logits to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p100_Holmes_logits.npy
+Saved proba to /home/kka151/scratch/holmes/datasets/Tik_Tok_removed_5_43/holmes_predictions/taf_test_neglected_p100_Holmes_probs.npy
+{'Accuracy': 0.0116, 'Precision': 0.013, 'Recall': 0.0112, 'F1-score': 0.0046}
